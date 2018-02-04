@@ -2,11 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Repair my Car</title>
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <!-- font awesome -->
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+      <!-- Style CSS -->
+      <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <header>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">
+          <img style="max-width: 2em;" src="img/LogoGear.svg" alt="Gear Logo">
+          Repair My Car
+        </h1>
+        <p class="lead">Where you can get help from everyone for a Fix</p>
+
+        <div class="input-group input-group-lg mb-3">
+          <input type="text" class="form-control" placeholder="How can we help?" aria-label="How can we help?" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">Search</button>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img id="logoGear" src="img/LogoGear.svg" alt="Gear Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">How-to Guilds</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">The Answer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recalls</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">The Forums</a>
+              </li>
+          </ul>
+              <button class="btn btn-outline-success" type="button">Log In</button>
+        </div>
+      </nav>
+    </div>
+    
+  </header>
   
 </body>
 </html>
